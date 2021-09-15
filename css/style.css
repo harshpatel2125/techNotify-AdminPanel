@@ -1,0 +1,102 @@
+/* common start */
+body
+{
+	color: #ffffff !important;
+}
+::-webkit-scrollbar
+{
+  width: 5px;
+}
+::-webkit-scrollbar-track
+{
+  background-color: #333333; 
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: #22ff66; 
+}
+.main-section
+{
+	background-color: #000000;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.35);
+	padding: 20px;
+}
+.page-title
+{
+	color: #000000;
+	margin-bottom: 20px;
+}
+.bg-black
+{
+	background-color: #000000 !important;
+	border-bottom: 1px solid #22ff66;
+}
+.form-label
+{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	display: block;
+	margin-left: 4px;
+}
+/* common end */
+/* login form start */
+.login-form
+{
+	width: 100%;
+	max-width: 370px;
+	height: auto;
+	background-color: #000000;
+	border-radius: 10px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.35);
+	margin: auto;
+	padding: 20px;
+}
+.login-txt
+{
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+/* login form end */
+/* dashboard start */
+.widget
+{
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.widget-icon
+{
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #22ff66;
+	color: #000000;
+	text-align: center;
+	font-size: 40px;
+}
+.widget-text
+{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 1px solid #22ff66;
+	padding: 10px;
+	text-align: center;
+}
+.widget-title
+{
+	font-weight: 400;
+	color: #dfdfdf;
+}
+/* dashboard end */
+/* profile start */
+.profile-pic
+{
+	border-radius: 50%;
+	border: 8px solid rgba(34,255,102,.5);
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+/* profile end */
